@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 
+const db = require("./db")
+
 app.set("view engine", "ejs"); /* setear el motor de plantillas*/
 
 app.use(express.urlencoded({ extended: true }));
