@@ -11,12 +11,9 @@ app.use(express.static("public"));
 app.use("/", user);
 
 app.get("/", function(req, res) {
-    respuesta = {
-        codigo: 200,
-        mensaje: "Punto de inicio",
-    };
-    res.send(respuesta);
-});
+    // Rendering index.ejs page
+    res.render("index");
+}); //error help!!!!
 
 app.listen(3000, () => {
     console.log(
