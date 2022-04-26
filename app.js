@@ -12,8 +12,8 @@ app.use("/", user);
 
 app.get("/", function(req, res) {
     // Rendering index.ejs page
-    res.render("index");
-}); //error help!!!!
+    res.render("../public/views/index");
+});
 
 app.listen(3000, () => {
     console.log(
