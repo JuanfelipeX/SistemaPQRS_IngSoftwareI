@@ -7,7 +7,6 @@ module.exports = (req, res) => {
             return res.status(500).json({
                 message: "error al mostrar los users"
             })
-
         }
         console.log(users)
     })
