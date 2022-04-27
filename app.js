@@ -12,7 +12,7 @@ app.use("/", user);
 
 app.get("/", function(req, res) {
     // Rendering index.ejs page
-    res.render("../public/views/index");
+    res.render("../public/views/PQRS");
 });
 
 app.listen(3000, () => {
