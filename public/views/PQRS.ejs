@@ -95,6 +95,35 @@
         </div>
     </div>
 
+    <table id="tablaPQRS" class="table mt-4">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>nombre</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <% datos.forEach((atributo) => { %>
+                <tr>
+                    <td>
+                        <%= atributo._id%>
+                    </td>
+
+                    <td>
+                        <%= atributo.nombre%>
+                    </td>
+
+                    <td>
+                        <a type="button" class="btnEditar btn btn-outline-primary bi bi-pencil"></a>
+                        <a href="/borrar/<%= atributo._id%>" class="btn btn-outline-danger bi bi-trash"></a>
+                    </td>
+                </tr>
+                <% }) %>
+        </tbody>
+
+    </table>
+
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
@@ -106,6 +135,9 @@
     <!-- Own CSS -->
     <link rel="stylesheet" href="../css/pqrs-mobile.css">
     <link rel="stylesheet" media="screen and (min-width: 600px)" href="../css/pqrs.css" />
+
+    <!-- Own JS -->
+    <script src="../../controllers/pqrsController.js"></script>
 
 </body>
 

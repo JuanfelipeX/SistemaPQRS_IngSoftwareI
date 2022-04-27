@@ -2,12 +2,13 @@ const pqrs = require("../model/pqrs");
 
 //mostrar
 module.exports = (req, res) => {
-    pqrs.find({}, (error, pqrss) => {
+    pqrs.find({}, (error, datos) => {
         if (error) {
             return res.status(500).json({
                 message: "error al mostrar los pqrs",
             });
         }
-        return res.render("../public/views/PQRS");
+        return res.render("../public/views/PQRS", { datos: datos });
+        //console.log(datos)
     });
 };
