@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const db = require("./db")
 const user = require("./routes/user")
+const pqrs = require("./routes/pqrs");
 
 app.set("view engine", "ejs"); /* setear el motor de plantillas*/
 
@@ -9,10 +10,11 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 app.use("/", user);
+app.use("/", pqrs);
 
 app.get("/", function(req, res) {
     // Rendering index.ejs page
-    res.render("../public/views/PQRS");
+    res.render("../public/views/index");
 });
 
 app.listen(3000, () => {
