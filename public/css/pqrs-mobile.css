@@ -14,7 +14,7 @@ html {
 }
 
 .container-tittle {
-    font-size: 3rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -27,17 +27,17 @@ html {
 }
 
 .card {
-    padding: 50px;
-    font-size: 1.8rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    padding: 25px;
+    font-size: 1.4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
     background-color: rgb(26, 26, 26);
     color: white;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .form-control {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     background-color: rgb(42, 42, 42);
     color: white;
     margin-bottom: 30px;
@@ -45,7 +45,7 @@ html {
 }
 
 .form-control:focus {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     background-color: rgb(42, 42, 42);
     color: white;
     margin-bottom: 30px;
@@ -70,7 +70,7 @@ option {
 .button-sent {
     padding: 10px;
     margin: 30px;
-    font-size: 2rem;
+    font-size: 1.6rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
