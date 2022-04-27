@@ -37,7 +37,7 @@ const pqrsController = mongoose.Schema({
 
     anexo: {
         type: String, // esto deberia ser tipo file
-    },
+    }
 });
 
 module.exports = mongoose.model("pqrs", pqrsController);
