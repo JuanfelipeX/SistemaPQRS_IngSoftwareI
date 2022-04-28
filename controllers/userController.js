@@ -1,7 +1,7 @@
 const user = require("../model/user")
 
 //mostrar
-module.exports = (req, res) => {
+module.exports.mostrar = (req, res) => {
     user.find({}, (error, users) => {
         if (error) {
             return res.status(500).json({

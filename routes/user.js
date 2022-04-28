@@ -14,6 +14,6 @@ router.get("/user", (req, res) => {
 */
 
 
-router.get("/user", userController);
+router.get("/user", userController.mostrar);
 
 module.exports = router;
