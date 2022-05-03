@@ -34,7 +34,7 @@ module.exports.crear = (req, res) => {
                 message: "Error al crear el PQRS"
             })
         }
-        res.redirect("/")
+        res.redirect("/table")
     })
 
 
