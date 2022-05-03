@@ -16,16 +16,16 @@ module.exports.mostrar = (req, res) => {
 //crear
 module.exports.crear = (req, res) => {
 
-    /*
+
     const entrada = new pqrs({
         nombre: req.body.nombre,
-        correo: req.body.correo,
+        correo: req.body.email,
         telefono: req.body.telefono,
         tipoId: req.body.tipoId,
         numeroId: req.body.numeroId,
         tipoRadicado: req.body.tipoRadicado,
         comentarios: req.body.comentarios,
-        anexo: req.body.anexo
+        anexo: req.body.anexo,
     });
 
     entrada.save(function(error, entrada) {
@@ -37,7 +37,6 @@ module.exports.crear = (req, res) => {
         res.redirect("/")
     })
 
-    */
 
-    console.log(req.body)
+    //console.log(req.body)
 };

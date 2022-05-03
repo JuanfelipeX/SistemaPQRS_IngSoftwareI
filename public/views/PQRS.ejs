@@ -25,12 +25,12 @@
 
                 <div class="mb-3">
                     <label for="nombre" class="form-label">Nombre Completo</label>
-                    <input type="text" class="form-control" id="nombre" aria-describedby="nombreHelp" placeholder="Nombre Completo" required>
+                    <input type="text" class="form-control" name="nombre" id="nombre" aria-describedby="nombreHelp" placeholder="Nombre Completo" required>
                 </div>
 
                 <div class="mb-3">
                     <label for="email" class="form-label">Correo Electrónico</label>
-                    <input type="email" class="form-control form-mail" id="email" aria-describedby="emailHelp" placeholder="Correo Electrónico" required>
+                    <input type="email" class="form-control form-mail" name="email" id="email" aria-describedby="emailHelp" placeholder="Correo Electrónico" required>
                     <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie.</div>
                 </div>
 
@@ -38,20 +38,20 @@
                     <div class="row">
                         <div class="col">
                             <div class="mb-3">
-                                <label for="phone" class="form-label">Teléfono Movil</label>
-                                <input type="tel" class="form-control" id="phone" aria-describedby="phoneHelp" placeholder="Teléfono Movil" required>
+                                <label for="telefono" class="form-label">Teléfono Movil</label>
+                                <input type="tel" class="form-control" name="telefono" id="telefono" aria-describedby="telefonoñHelp" placeholder="Teléfono Movil" required>
                             </div>
                         </div>
                         <div class="col">
                             <div class="mb-3">
                                 <label class="form-label">Tipo de Identificación</label>
                                 <select name="tipoId" id="tipoId" class="form-select form-control">
-                                    <option value="cc">Cedula Ciudadanía</option>
-                                    <option value="ce">Cedula Extranjera</option>
-                                    <option value="nip">Numero de Identificación Personal</option>
-                                    <option value="nit">Numero de Identificación Tributaria</option>
-                                    <option value="ti">Tarjeta de Identidad</option>
-                                    <option value="pap">Pasaporte</option>
+                                    <option value="Cedula Ciudadanía">Cedula Ciudadanía</option>
+                                    <option value="Cedula Extranjera">Cedula Extranjera</option>
+                                    <option value="Numero de Identificación Personal">Numero de Identificación Personal</option>
+                                    <option value="Numero de Identificación Tributaria">Numero de Identificación Tributaria</option>
+                                    <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
+                                    <option value="Pasaporte">Pasaporte</option>
                                 </select>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
 
                 <div class="mb-3">
                     <label for="numeroId" class="form-label">Numero de Identificación</label>
-                    <input type="number" class="form-control numeroId" id="numeroId" aria-describedby="emailHelp" placeholder="Numero de Identificación" required>
+                    <input type="number" class="form-control numeroId" name="numeroId" id="numeroId" aria-describedby="emailHelp" placeholder="Numero de Identificación" required>
                 </div>
 
                 <p class="container-tittle">INFORMACION PQRS</p>
@@ -68,22 +68,22 @@
                 <div class="mb-3">
                     <label class="form-label tipoRadicado">Tipo de Radicado</label>
                     <select name="tipoRadicado" id="tipoRadicado" class="form-select form-control tipoRadicado">
-                        <option value="peticiones">Peticiones</option>
-                        <option value="quejas">Quejas</option>
-                        <option value="reclamos">Reclamos</option>
-                        <option value="sugerencias">Sugerencias</option>
+                        <option value="Peticiones">Peticiones</option>
+                        <option value="Quejas">Quejas</option>
+                        <option value="Reclamos">Reclamos</option>
+                        <option value="Sugerencias">Sugerencias</option>
                     </select>
                 </div>
 
                 <div class="form-outline w-100">
                     <label class="form-label" for="comentarios">Comentarios</label>
-                    <textarea class="form-control" id="comentarios" rows="4" style="background: rgb(36, 36, 36);"></textarea>
+                    <textarea class="form-control" name="comentarios" id="comentarios" rows="4" style="background: rgb(36, 36, 36);"></textarea>
 
                 </div>
 
                 <div class="mb-3">
                     <label for="anexo" class="form-label">Anexo (PDF)</label>
-                    <input class="form-control" type="file" id="anexo" accept="application/pdf">
+                    <input class="form-control" name="anexo" type="file" id="anexo" accept="application/pdf">
                 </div>
 
                 <div class="d-grid gap-2 col-5 mx-auto ">
