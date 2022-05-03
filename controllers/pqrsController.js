@@ -1,7 +1,7 @@
 const pqrs = require("../model/pqrs");
 
 //mostrar
-module.exports = (req, res) => {
+module.exports.mostrar = (req, res) => {
     pqrs.find({}, (error, datos) => {
         if (error) {
             return res.status(500).json({

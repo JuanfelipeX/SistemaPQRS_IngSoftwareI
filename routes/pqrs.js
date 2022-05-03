@@ -13,6 +13,6 @@ router.get("/user", (req, res) => {
 });
 */
 
-router.get("/pqrs", PQRSController);
+router.get("/pqrs", PQRSController.mostrar);
 
 module.exports = router;
