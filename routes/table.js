@@ -23,4 +23,8 @@ router.get("/table", tableController.mostrar);
 router.post("/editar", tableController.editar);
 
 
+//Borrar PQRS (Delete)
+router.get("/borrar/:id", tableController.borrar);
+
+
 module.exports = router;

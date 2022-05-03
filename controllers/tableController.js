@@ -48,3 +48,16 @@ module.exports.editar = (req, res) => {
 
     //console.log(req.body)
 };
+
+
+module.exports.borrar = (req, res) => {
+    const id = req.params.id
+    table.findByIdAndRemove(id, (error, datos) => {
+        if (error) {
+            return res.status(500).json({
+                message: "Error al borrar el PQRS " + error
+            });
+        }
+        res.redirect("/")
+    });
+}
