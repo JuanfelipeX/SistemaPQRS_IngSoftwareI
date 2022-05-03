@@ -20,17 +20,17 @@
         <div class="card card-container">
             <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
             <p id="profile-name" class="profile-name-card"></p>
-            <form class="form-signin">
+            <form class="form-signin" action="/validar" method="POST">
                 <span id="reauth-email" class="reauth-email"></span>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Correo Electrónico" required autofocus>
+                <input type="password" id="inputPassword" name="inputPassword" class="form-control" placeholder="Contraseña" required>
                 <div id="remember" class="checkbox">
                 </div>
-                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Ingresar</button>
             </form>
             <!-- /form -->
             <a href="#" class="forgot-password">
-                Create an Account
+                Crear una Nueva Cuenta
             </a>
         </div>
         <!-- /card-container -->
@@ -47,6 +47,11 @@
 
     <!-- Own CSS -->
     <link rel="stylesheet" href="../css/index.css">
+
+
+    <!-- Own JS -->
+    <script src="../../controllers/userController.js"></script>
+
 
 </body>
 

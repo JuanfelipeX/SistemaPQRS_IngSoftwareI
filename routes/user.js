@@ -13,7 +13,10 @@ router.get("/user", (req, res) => {
 });
 */
 
-
+//mostrar los usuarios
 router.get("/user", userController.mostrar);
+
+//validar el login
+router.post("/validar", userController.validar);
 
 module.exports = router;
