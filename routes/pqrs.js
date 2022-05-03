@@ -16,8 +16,7 @@ router.get("/user", (req, res) => {
 //Crear todos los PQRs (GET)
 router.get("/pqrs", PQRSController.mostrar);
 
-//Crear PQRS
+//Crear PQRS (POST)
 router.post("/crear", PQRSController.crear);
-
 
 module.exports = router;

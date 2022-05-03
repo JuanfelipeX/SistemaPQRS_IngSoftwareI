@@ -14,6 +14,13 @@ router.get("/user", (req, res) => {
 });
 */
 
+
+//Obtener todos los PQRS (GET)
 router.get("/table", tableController.mostrar);
+
+
+//Editar PQRS (PUT)
+router.post("/editar", tableController.editar);
+
 
 module.exports = router;
