@@ -13,6 +13,11 @@ router.get("/user", (req, res) => {
 });
 */
 
+//Crear todos los PQRs (GET)
 router.get("/pqrs", PQRSController.mostrar);
+
+//Crear PQRS
+router.post("/crear", PQRSController.crear);
+
 
 module.exports = router;
