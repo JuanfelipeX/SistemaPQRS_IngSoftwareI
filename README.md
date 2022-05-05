@@ -77,3 +77,22 @@ Juan Felipe Jimenez Pacheco Juan Pablo Trujillo
 
 
 
+
+
+![image](https://user-images.githubusercontent.com/72418729/167025060-daaa0553-1cd3-4da2-84f6-949f7b5edb81.png)
+![image](https://user-images.githubusercontent.com/72418729/167025122-81643c6f-2b3c-4f3a-8a6f-1e74b5d05d6d.png)
+
+
+
+
+![image](https://user-images.githubusercontent.com/72418729/167025177-157412b8-d542-4064-8b3f-96bb12e42e4f.png)
+
+
+
+![image](https://user-images.githubusercontent.com/72418729/167025228-c1c827bc-900d-4be6-b7d3-60610c1020cd.png)
+
+
+
+
+![Uploading image.png…]()
+
