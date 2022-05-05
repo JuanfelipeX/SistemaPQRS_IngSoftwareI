@@ -93,6 +93,3 @@ Juan Felipe Jimenez Pacheco Juan Pablo Trujillo
 
 
 
-
-![Uploading image.png…]()
-
