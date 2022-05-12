@@ -93,3 +93,9 @@ Juan Felipe Jimenez Pacheco Juan Pablo Trujillo
 
 
 
+
+
+https://stackoverflow.com/questions/53935163/how-can-i-send-one-alert-from-my-node-js-to-my-javascript-client
+
+
+
