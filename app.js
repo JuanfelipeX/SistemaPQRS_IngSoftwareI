@@ -3,7 +3,8 @@ const app = express();
 const db = require("./db")
 const user = require("./routes/user")
 const pqrs = require("./routes/pqrs");
-const table = require("./routes/table");
+const table = require("./routes/table")
+const singup = require("./routes/singup");
 
 app.set("view engine", "ejs"); /* setear el motor de plantillas*/
 
@@ -13,6 +14,7 @@ app.use(express.static("public"));
 app.use("/", user);
 app.use("/", pqrs);
 app.use("/", table);
+app.use("/", singup);
 
 app.get("/", function(req, res) {
     // Rendering index.ejs page
