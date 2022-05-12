@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body,
+html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(41, 52, 97), rgb(109, 36, 36));
+}
+
+.tablas {
+    font-size: 1.8rem;
+}
+
+.container {
+    font-size: 2rem;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.form-control {
+    font-size: 1.8rem;
+    background-color: rgb(42, 42, 42);
+    color: white;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container-tittle {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Catamaran', sans-serif;
+    font-style: italic;
+    color: white;
+    padding-top: 25px;
+}
+
+.form-mail {
+    margin: 0;
+}
+
+.form-text {
+    margin-bottom: 30px;
+}
+
+.button-sent {
+    font-size: 1.6rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
